@@ -1,0 +1,106 @@
+[
+  {
+    "id": "s1",
+    "title": "Midnight Signals",
+    "artist": "Neon Atlas",
+    "lyric_embedding": [0.48, 0.81, 0.74, 0.21, 0.79, 0.44, 0.75, 0.86],
+    "audio_features": {
+      "valence": 0.26,
+      "energy": 0.52,
+      "acousticness": 0.34,
+      "instrumentalness": 0.63,
+      "tempo": 95
+    }
+  },
+  {
+    "id": "s2",
+    "title": "Letters in Rain",
+    "artist": "Clara Vale",
+    "lyric_embedding": [0.71, 0.38, 0.66, 0.84, 0.43, 0.72, 0.68, 0.49],
+    "audio_features": {
+      "valence": 0.73,
+      "energy": 0.46,
+      "acousticness": 0.79,
+      "instrumentalness": 0.17,
+      "tempo": 84
+    }
+  },
+  {
+    "id": "s3",
+    "title": "Event Horizon",
+    "artist": "Ion Harbor",
+    "lyric_embedding": [0.80, 0.69, 0.77, 0.28, 0.62, 0.58, 0.47, 0.89],
+    "audio_features": {
+      "valence": 0.33,
+      "energy": 0.57,
+      "acousticness": 0.49,
+      "instrumentalness": 0.72,
+      "tempo": 98
+    }
+  },
+  {
+    "id": "s4",
+    "title": "Sunday on Fire",
+    "artist": "Blue Arcade",
+    "lyric_embedding": [0.55, 0.61, 0.53, 0.78, 0.57, 0.70, 0.60, 0.66],
+    "audio_features": {
+      "valence": 0.79,
+      "energy": 0.82,
+      "acousticness": 0.24,
+      "instrumentalness": 0.06,
+      "tempo": 126
+    }
+  },
+  {
+    "id": "s5",
+    "title": "Concrete Vow",
+    "artist": "Black Meridian",
+    "lyric_embedding": [0.28, 0.85, 0.57, 0.19, 0.83, 0.36, 0.89, 0.31],
+    "audio_features": {
+      "valence": 0.21,
+      "energy": 0.69,
+      "acousticness": 0.29,
+      "instrumentalness": 0.22,
+      "tempo": 104
+    }
+  },
+  {
+    "id": "s6",
+    "title": "Soft Orbit",
+    "artist": "Ari Bloom",
+    "lyric_embedding": [0.66, 0.52, 0.72, 0.79, 0.51, 0.63, 0.73, 0.58],
+    "audio_features": {
+      "valence": 0.68,
+      "energy": 0.59,
+      "acousticness": 0.66,
+      "instrumentalness": 0.27,
+      "tempo": 112
+    }
+  },
+  {
+    "id": "s7",
+    "title": "Static Souls",
+    "artist": "Dusk Relay",
+    "lyric_embedding": [0.38, 0.87, 0.69, 0.13, 0.86, 0.42, 0.82, 0.37],
+    "audio_features": {
+      "valence": 0.24,
+      "energy": 0.63,
+      "acousticness": 0.36,
+      "instrumentalness": 0.56,
+      "tempo": 100
+    }
+  },
+  {
+    "id": "s8",
+    "title": "Polaroid Summer",
+    "artist": "Runaway Diagram",
+    "lyric_embedding": [0.60, 0.43, 0.56, 0.81, 0.48, 0.75, 0.62, 0.61],
+    "audio_features": {
+      "valence": 0.76,
+      "energy": 0.74,
+      "acousticness": 0.38,
+      "instrumentalness": 0.08,
+      "tempo": 122
+    }
+  }
+]
