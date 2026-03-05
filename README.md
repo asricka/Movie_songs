@@ -93,6 +93,33 @@ Apply `db/schema.sql` to create:
 python3 -m unittest discover -s tests
 ```
 
+## Public demo deploy (Render)
+
+1. Go to [Render](https://render.com), click **New +** -> **Blueprint**.
+2. Connect your GitHub repo `asricka/Movie_songs`.
+3. Render will detect `render.yaml` and create the web service.
+4. Click **Apply** and wait for deploy to finish.
+5. Open your live URL:
+   - `https://<your-render-service>.onrender.com/health`
+   - `https://<your-render-service>.onrender.com/docs`
+
+### Manual Render (without Blueprint)
+
+1. New **Web Service** from your GitHub repo.
+2. Runtime: `Python`.
+3. Build Command: `pip install -r requirements.txt`
+4. Start Command: `uvicorn src.app:app --host 0.0.0.0 --port $PORT`
+5. Add env vars:
+   - `EMBEDDING_PROVIDER=local`
+   - `MOVIES_PATH=data/movies.json`
+   - `SONGS_PATH=data/songs.json`
+
+## Alternative host (Railway/Heroku-style)
+
+This repo includes a `Procfile`:
+
+`web: uvicorn src.app:app --host 0.0.0.0 --port $PORT`
+
 ## GitHub push
 
 After adding your remote:

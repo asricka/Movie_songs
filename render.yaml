@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: movie-songs-demo
+    runtime: python
+    plan: free
+    autoDeploy: true
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn src.app:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: EMBEDDING_PROVIDER
+        value: local
+      - key: MOVIES_PATH
+        value: data/movies.json
+      - key: SONGS_PATH
+        value: data/songs.json
